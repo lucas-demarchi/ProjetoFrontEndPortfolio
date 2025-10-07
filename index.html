@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Portfólio Jhonas Perom</title>
+</head>
+<body id="page-home">
+
+    <div class="btn-inicio">
+        <a href="#box-site-page">
+            <img src="./images/btnNavInicio.png" alt="Voltar para o Início da Página!" title="Voltar para o Início da Página!" class="btn-nav-topo">
+        </a>
+    </div>
+
+    <div class="box-site-page" id="box-site-page">
+        <header>
+            <section class="wrap topo-page">
+                <div class="logotipo">
+                    <img src="./images/logotipoJP.png" alt="Logotipo JP Developer" title="Logotipo JP Developer" class="img-logotipo">
+                </div>
+
+                <div class="menu-web">
+                    <!-- Menu MOBILE -->
+                    <nav class="menu-mobile">
+                        <ul class="menu-one">
+                            <li class="nav-item">
+                                <a href="#" class="link-menu-mobile">home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#about" class="link-menu-mobile">quem sou</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#projects" class="link-menu-mobile">portfólio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#contact" class="link-menu-mobile">contato</a>
+                            </li>
+                        </ul>
+                        <div class="btn-hamburguer">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </div>
+                    </nav>
+
+                    <!-- Menu DESKTOP -->
+                    <nav class="menu-desktop">
+                        <ul class="menu-two">
+                            <li class="nav-item">
+                                <a href="#" class="link-menu-desktop">home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#about" class="link-menu-desktop">quem sou</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#projects" class="link-menu-desktop">portfólio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#contact" class="link-menu-desktop">contato</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </section>
+        </header>
+
+        <main id="container-page">
+            <!-- Banner da Página -->
+            <section class="banner-page">
+                <div class="wrap">
+                    <div class="grid-banner">
+                        <div class="title-banner">
+                            <h1 class="text-banner">
+                                <span class="nome">Jhonas Perom<span class="icone-jp">!</span></span>
+                                <span class="funcao">Desenvolvedor de Aplicações Web.</span>
+                                <span class="descricao">Esse é o meu Portfólio, conheça um pouco mais sobre meu trabalho.</span>
+                            </h1>
+
+                            <div class="btn-portfolio">
+                                <a href="" target="_blank" class="link-github" title="GitHub">
+                                    <img src="./images/icones/icons-github-250.svg" alt="GitHub" title="GitHub" class="github"> GitHub
+                                </a>
+                                <a href="" target="_blank" class="link-linkedin" title="LinkedIn">
+                                    <img src="./images/icones/icons-linkedin-250.svg" alt="LinkedIn" title="LinkedIn" class="linkedin"> LinkedIn
+                                </a>
+                            </div>
+                        </div>
+        
+                        <div class="box-img-banner">
+                            <img src="./images/imgBanner.jpg" alt="Imagem para Apresentação" title="Imagem para Apresentação" class="img-banner">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sessão de Quem Sou -->
+            <section class="about" id="about">
+                <div class="wrap">
+                    <h1 class="title-about">Quem sou!</h1>
+                    <div>
+                        <p class="text-about">
+                            Desenvolvedor Web Full-Stack com experiência em HTML 5, CSS 3, Bootstrap, Javascript, Biblioteca JQuery, React.js, 
+                            PHP, Banco de Dados MySQL e Wordpress, também apaixonado por Tecnologia e Programação!
+                        </p>
+                    </div>
+
+                    <div class="conhecimentos">
+                        <h2 class="sub-title-about">Conhecimentos e Soft Skills!</h2>
+                        <div class="box-habil">
+                            <span class="habil">Google Drive e Aplicativos</span>
+                            <span class="habil">HTML 5</span>
+                            <span class="habil">CSS 3</span>
+                            <span class="habil">Bootstrap</span>
+                            <span class="habil">Javascript</span>
+                            <span class="habil">Biblioteca JQuery</span>
+                            <span class="habil">React.js</span>
+                            <span class="habil">PHP</span>
+                            <span class="habil">Banco de Dados MySQL</span>
+                            <span class="habil">Wordpress</span>
+                            <span class="habil">GitHub</span>
+                            <span class="habil">Atendimento ao Cliente</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sessão de Portfólio (Projetos) -->
+            <section class="projects" id="projects">
+                <div class="wrap">
+                    <h1 class="title-portfolio">Portfólio (Projetos)!</h1>
+                    <h2 class="title-projects">Estes são alguns dos principais Projetos Web desenvolvidos, utilizando os recursos de Front-End.</h2>
+
+                    <div class="grid-projects" id="projects-container">
+                        <!-- <div class="card-projects">
+                            <img src="./images/layoutSite.jpeg" alt="Projeto de Site!" title="Projeto de Site!" class="img-card">
+                            <h3>Projeto 1 - Front-End</h3>
+                            <p>Informações sobre o projeto, você encontra no GitHub!</p>
+                            <a href="" class="link-box-projects">
+                                <img src="./images/icones/icons-github-250.svg" alt="Repositório GitHub!" title="Repositório GitHub!" class="img-github">
+                                Repositório GitHub
+                            </a>
+                        </div> -->
+
+                        <script>
+                            const container = document.getElementById("projects-container");
+
+                            for (let i = 1; i <= 8; i++){
+                                container.innerHTML += `
+                                    <div class="card-projects">
+                                        <img src="./images/layoutSite.jpeg" alt="Projeto ${i}" class="img-card">
+                                        <h3>Projeto ${i} - Front-End</h3>
+                                        <p class="align-text">Informações sobre o projeto, você encontra no GitHub!</p>
+                                        <a href="#" class="link-box-projects">
+                                            <img src="./images/icones/icons-github-250.svg" alt="Repositório GitHub!" title="Repositório GitHub!" class="img-github">
+                                            Repositório GitHub
+                                        </a>
+                                    </div>
+                                `;
+                            }
+                        </script>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sessão de Contato -->
+            <section class="contact" id="contact">
+                <div class="wrap">
+                    <div class="align-contact">
+                        <h1 class="title-contact">Contatos!</h1>
+                    </div>
+
+                    <div class="box-contact">
+                        <!-- DIV para os Dados de Contato -->
+                        <div class="info-contact">
+                            <div class="align-text-contact">
+                                <p>Tire todas as suas dúvidas sobre os nossos serviços ou realize um orçamento.</p>
+                                <p>Estes são os nossos principais meios de contato:</p>
+                            </div>
+                            <div>
+                                <ul class="ul-contact">
+                                    <li class="list-ct">
+                                        <img src="./images/icones/iconsEmail.png" alt="E-mail!" title="E-mail!" class="icon-ct">
+                                        <span>contato@jpportfolio.com.br</span>
+                                    </li>
+                                    <li class="list-ct">
+                                        <img src="./images/icones/iconsTelefone.png" alt="Telefone!" title="Telefone!" class="icon-ct">
+                                        <span>(43) 0000-0000</span>
+                                    </li>
+                                    <li class="list-ct">
+                                        <img src="./images/icones/iconsWhatsapp.png" alt="Whatsapp!" title="Whatsapp!" class="icon-ct">
+                                        <a href="https://api.whatsapp.com/send?phone=5511900000000" target="_blank" alt="Clique aqui para iniciar uma conversa!" title="Clique aqui para iniciar uma conversa!" class="link-whatsapp">
+                                            <span>(43) 0 0000-0000</span>
+                                            <!-- <span class="info-whatsapp">Clique no Número!</span> -->
+                                        </a>
+                                    </li>
+                                    <li class="list-ct">
+                                        <img src="./images/icones/iconsLocalizacao.png" alt="Endereço!" title="Endereço!" class="icon-ct">
+                                        <span>Avenida Teste N°1000, CEP: 00000-000 Londrina - PR</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Método POST: Envia os dados de forma oculta! (Segurança de Dados via protocolo HTTPS e HTTP.) -->
+                        <!-- Método GET: Envia os dados sempre para a URL da página.  -->
+                        <!-- OBS: Caso não seja especificado um Método para o FORM, ele nativamente vai funcionar como GET.  -->
+
+                        <!-- DIV para Formulário de Contato! -->
+                        <div class="form-contact">
+                            <form action="index.html" method="GET" name="formContato" onsubmit="return ValidarCamposFormulario();" class="form-data">
+                                <label>Digite seu Nome:</label>
+                                <input type="text" name="nome" id="nome" placeholder="Digite seu Nome aqui..." class="camp-form">
+                                
+                                <label>Digite seu E-mail:</label>
+                                <input type="text" name="email" id="email" placeholder="Digite seu E-mail aqui..." class="camp-form" onblur="ValidarEmail(this)">
+                                <small id="erroEmail" class="erroEmail">Digite um E-mail válido!</small>
+
+                                <label>Digite seu Telefone:</label>
+                                <input type="text" name="telefone" id="telefone" placeholder="Digite seu Telefone aqui..." class="camp-form" oninput="MascaraTelefone(this);" maxlength="15" >
+
+                                <label>Digite seu Assunto:</label>
+                                <input type="text" name="ass" id="ass" placeholder="Digite seu Assunto aqui..." class="camp-form">
+
+                                <label>Digite sua Mensagem:</label>
+                                <textarea name="msg" id="msg" placeholder="Digite sua Mensagem aqui..." class="camp-form-msg"></textarea>
+
+                                <button type="submit" name="btnEnviar" class="btn-enviar">enviar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Google Maps! -->
+                <div class="map-contact">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3663.897348326852!2d-51.17892302395249!3d-23.319482952751898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb4313ff0ee975%3A0x1c33d6cf3ae5b478!2sWMBarros%20Treinamento%20em%20TI%20Cursos%20de%20Programa%C3%A7%C3%A3o%2C%20Front-end%2C%20Cria%C3%A7%C3%B5es%20de%20Sites%3A%20TUDO%20NA%20PR%C3%81TICA%20-%20PRESENCIAL%20E%20REMOTO!5e0!3m2!1spt-BR!2sbr!4v1747096578493!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>
+        </main>
+
+        <footer id="end-page">
+            <section class="rs-footer">
+                <div class="wrap">
+                    <h1 class="tittle-rs">Redes Sociais!</h1>
+                    <div class="rs-icon">
+                        <a href="#" target="_blank" class="rs-link">
+                            <img src="./images/icones/iconsLinkedin.png" alt="LinkedIn!" title="LinkedIn!" class="img-icon">
+                        </a>
+                        <a href="#" target="_blank" class="rs-link">
+                            <img src="./images/icones/iconsGithub.png" alt="GitHub!" title="GitHub!" class="img-icon">
+                        </a>
+                        <a href="#" target="_blank" class="rs-link">
+                            <img src="./images/icones/iconsYoutube.png" alt="YouTube!" title="YouTube!" class="img-icon">
+                        </a>
+                        <a href="#" target="_blank" class="rs-link">
+                            <img src="./images/icones/iconsFacebook.png" alt="Facebook!" title="Facebook!" class="img-icon">
+                        </a>
+                        <a href="#" target="_blank" class="rs-link">
+                            <img src="./images/icones/iconsInstagram.png" alt="Instagram!" title="Instagram!" class="img-icon">
+                        </a>
+                        <a href="#" target="_blank" class="rs-link">
+                            <img src="./images/icones/iconsBehance.png" alt="Behance!" title="Behance!" class="img-icon">
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="copy">
+                <div class="wrap">
+                    <div class="info-copy">
+                        <p>Todos os direitos reservados © 2025.</p>
+                        <a href="#top">
+                            <img src="./images/logotipoJP.png" alt="Logotipo JP" title="Logotipo JP" class="logotipo-copy">
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </footer>
+    </div>
+
+    <!-- Chamadas de Bibliotecas Javascript! -->
+    <script src="./js/menu.js"></script>
+    <script src="./js/validar-campos.js"></script>
+    <script src="./js/mask-campos.js"></script>
+</body>
+
+</html>
