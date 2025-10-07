@@ -1,10 +1,10 @@
-Projeto Front-End de um Portfólio fictício em uma landing page web.
+# Projeto Front-End de um Portfólio fictício em uma landing page web.
 
 Bem-vindo ao repositório do **Projeto Front-End de um Portfólio fictício** — um projeto desenvolvido com HTML, CSS, JavaScript puroe Responsividade Nativa, com foco em apresentação pessoal, habilidades técnicas e projetos desenvolvidos.
 
 ---
 
-📌 Funcionalidades
+# 📌 Funcionalidades
 
 - Navegação responsiva (Menu desktop e mobile com botão hamburguer)
 - Sessões: Home, Quem Sou, Portfólio, Contato
@@ -16,7 +16,7 @@ Bem-vindo ao repositório do **Projeto Front-End de um Portfólio fictício** �
 
 ---
 
-🛠️ Tecnologias Utilizadas
+# 🛠️ Tecnologias Utilizadas
 
 - HTML5
 - CSS3
