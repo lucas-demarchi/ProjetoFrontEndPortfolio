@@ -22,3 +22,12 @@ Bem-vindo ao repositório do **Projeto Front-End de um Portfólio fictício** �
 - CSS3
 - JavaScript Puro
 - Responsividade Nativa (@mediascreen)
+
+---
+
+Preview Versão Desktop:
+<img width="2560" height="6952" alt="Versão Desktop" src="https://github.com/user-attachments/assets/6a5ce818-bff7-4ff7-ad9b-4d228f9e938c" />
+
+
+Preview do Menu Hamburguer para Celular:
+![Desktop2025 10 07-18 46 11 05-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/700eabf6-ee14-4e51-a192-a16b6c1811e2)
