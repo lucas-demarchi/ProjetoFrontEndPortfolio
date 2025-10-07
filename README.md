@@ -26,7 +26,7 @@ Bem-vindo ao repositório do **Projeto Front-End de um Portfólio fictício** �
 ---
 
 Preview Versão Desktop:
-<img width="2560" height="6952" alt="Versão Desktop" src="https://github.com/user-attachments/assets/6a5ce818-bff7-4ff7-ad9b-4d228f9e938c" />
+<img width="1080" height="1920" alt="Versão Desktop" src="https://github.com/user-attachments/assets/6a5ce818-bff7-4ff7-ad9b-4d228f9e938c" />
 
 
 Preview do Menu Hamburguer para Celular:
