@@ -25,5 +25,5 @@ Bem-vindo ao repositório do **Projeto Front-End de um Portfólio fictício** �
 
 ---
 
-Preview do Menu Hamburguer para Celular:
+- Preview do Menu Hamburguer para Celular:
 ![Desktop2025 10 07-18 46 11 05-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/700eabf6-ee14-4e51-a192-a16b6c1811e2)
